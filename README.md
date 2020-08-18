@@ -3,7 +3,7 @@ About r-pbapply
 
 Home: https://github.com/psolymos/pbapply
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: BSD-3-Clause
 
