@@ -1,4 +1,4 @@
-{% set version = "1.6-0" %}
+{% set version = "1.7-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pbapply_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pbapply/pbapply_{{ version }}.tar.gz
-  sha256: e8c13e7edf2d2415242f5c66377fc9647dba705359ec34813fa9d2f1fbc37f61
+  sha256: 64b8e931e0a09031c20b66173ce80a646043b8f135d329bc86226a11c6b706c0
 
 build:
   merge_build_host: true  # [win]
