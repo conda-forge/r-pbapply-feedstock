@@ -1,11 +1,11 @@
-About r-pbapply
-===============
+About r-pbapply-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pbapply-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/psolymos/pbapply
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pbapply-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lightweight package that adds progress bar to vectorized R functions ('*apply'). The implementation can easily be added to functions where showing the progress is useful (e.g. bootstrap). The type and style of the progress bar (with percentages or remaining time) can be set through options. Supports several parallel processing backends.
 
