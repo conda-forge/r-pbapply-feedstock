@@ -1,4 +1,4 @@
-{% set version = "1.7-2" %}
+{% set version = "1.7-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pbapply_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pbapply/pbapply_{{ version }}.tar.gz
-  sha256: aeed8c8c308c7e3827daf10b01b8ed4b88c1d68cea57d72d67c600c0ce0dae13
+  sha256: 6a5c7110a6bf13735374d3b2e75b32ec0e0f0276ad95e928d2c802b53ff1302d
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
